@@ -52,7 +52,11 @@ i {
 
 .lista-lateral li:hover, .lista-lateral-2 li:hover {
   background-color: rgb(251, 167, 63);
+  border-radius: 40px 40px;
+  transition: 0.5s;
 }
+
+
 
 .rede-social-titulo, .contatos-titulo {
   color: gray;
