@@ -1,0 +1,59 @@
+/*Resetando os valores padrões da página*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  outline: none;
+  list-style: none;
+  color: inherit
+}
+
+/*Menu*/
+
+.menu {
+  width: 23%;
+  height: 100%;
+  box-shadow: 2px 2px 10px gray;
+  padding: 10px;
+  position: fixed;
+}
+
+.flex-logo {
+  display: flex;
+}
+
+.flex-logo h2 {
+  margin-top: 10%;
+  margin-left: 8%;
+}
+
+.logo {
+  width: 80px;
+  height:80px;
+}
+
+.cafeteria-titulo {
+  margin-top: -9%;
+  margin-left: 38%;
+  margin-bottom: 15%;
+  color: gray;
+}
+
+.lista-lateral li, .lista-lateral-2 li, .lista-lateral-3 li {
+  color: rgb(77, 77, 77);
+  padding: 5%;
+}
+
+i {
+  margin-right: 5%;
+}
+
+.lista-lateral li:hover, .lista-lateral-2 li:hover {
+  background-color: rgb(251, 167, 63);
+}
+
+.rede-social-titulo, .contatos-titulo {
+  color: gray;
+}
